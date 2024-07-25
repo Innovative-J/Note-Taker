@@ -12,5 +12,5 @@ router.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
-// exporting router
+// exporting routers
 module.exports = router;
