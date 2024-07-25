@@ -2,8 +2,8 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const port = process.env.PORT || 3004
 
-const port = 3007;
 
 //Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
